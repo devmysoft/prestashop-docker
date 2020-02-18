@@ -1,5 +1,5 @@
 FROM php:7.2-apache
-LABEL maintainer="PrestaShop Core Team <coreteam@prestashop.com>"
+LABEL maintainer="DEVMYSOFT <contact@devmysoft.fr>"
 
 ENV PS_DOMAIN="<to be defined>" \
 DB_SERVER="<to be defined>" \
@@ -15,6 +15,7 @@ PS_COUNTRY=GB \
 PS_ALL_LANGUAGES=0 \
 PS_INSTALL_AUTO=0 \
 PS_ERASE_DB=0 \
+PS_DB_CLEAR=0 \
 PS_DEV_MODE=0 \
 PS_HOST_MODE=0 \
 PS_DEMO_MODE=0 \

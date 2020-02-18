@@ -1,5 +1,5 @@
 FROM prestashop/base:7.2-apache
-LABEL maintainer="PrestaShop Core Team <coreteam@prestashop.com>"
+LABEL maintainer="DEVMYSOFT <contact@devmysoft.fr>"
 
 ENV PS_VERSION 1.7.6.3
 
