@@ -6,8 +6,6 @@ ENV PS_VERSION 1.7.6.3
 # Get PrestaShop
 ADD https://www.prestashop.com/download/old/prestashop_1.7.6.3.zip /tmp/prestashop.zip
 
-USER devmysoft
-
 # Extract
 RUN mkdir -p /tmp/data-ps \
 	&& unzip -q /tmp/prestashop.zip -d /tmp/data-ps/ \
