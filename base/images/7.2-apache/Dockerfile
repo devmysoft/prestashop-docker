@@ -64,3 +64,7 @@ COPY config_files/php.ini /usr/local/etc/php/
 
 # Run
 CMD ["/tmp/docker_run.sh"]
+
+#docker image build -t prestashop-base:7.2-apache .
+#docker image tag prestashop-base:7.2-apache devmysoft/prestashop-base:7.2-apache
+#docker image push devmysoft/prestashop-base:7.2-apache
